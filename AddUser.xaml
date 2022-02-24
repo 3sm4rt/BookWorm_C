@@ -1,0 +1,232 @@
+﻿<Window x:Class="BookWorm.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookWorm"
+        mc:Ignorable="d"
+        Title="AddUser" Height="500" Width="400" AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FFFFF865" Offset="0.13"/>
+                    <GradientStop Color="#FF00FFA2" Offset="0.5"/>
+                    <GradientStop Color="#FFB64646" Offset="0.97" />
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <StackPanel Margin="0,0,0,0" >
+            <Menu MouseLeftButtonDown="Minimize" >
+                <MenuItem Header="File" >
+                    <MenuItem Header="Main Menu"
+                              Click="NavigateToMenu"/>
+                </MenuItem>
+            </Menu>
+            <Ellipse Fill="Yellow" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-17,30,0" ToolTip="Minimize" MouseLeftButtonDown="Minimize"/>
+            <Ellipse x:Name="CloseButton" Fill="Red" Grid.Row="0" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="0.625,0.128" Margin="0,-17,8,0" MouseLeftButtonDown="CloseApp" ToolTip="Close">
+
+            </Ellipse>
+        </StackPanel >
+        <!--Felhasználó Teljes Neve input field-->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0" >
+            <StackPanel Height="35" VerticalAlignment="Top" Width="178" Margin="4,46,-250,8">
+                <TextBlock Text="Ügyfél felvétel"
+                           FontWeight="DemiBold"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           Foreground="Black"
+                           HorizontalAlignment="Center" Width="163"/>
+            </StackPanel>
+            <StackPanel Margin="106,3,0,0">
+                <TextBox x:Name="firstName" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Vezeték Név"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="125"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="-250,111,0,0" MouseLeftButtonUp="vezetekNevEvent" />
+                <Border Width="116"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="-116,0,0,0" 
+                 />
+                <TextBox x:Name="lastName" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Kereszt Név"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="125"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="10,-28,0,0" GotFocus="lastNameFocus" />
+                <Border Width="117"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="12,-2,0,0" 
+                 />
+            </StackPanel>
+
+            <!--Felhasználó e-mail címe input field-->
+            <StackPanel Margin="0,2,0,0">
+                <TextBox x:Name="userEmail" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="E-mail Címe"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25" Margin="-255,137,0,0" GotFocus="emailFocus" />
+
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" VerticalAlignment="Top" 
+                        HorizontalAlignment="Left" Margin="-253,-3,0,0" 
+                 />
+            </StackPanel>
+
+
+            <!--Felhasználó Lakcíme input field-->
+            <StackPanel Margin="0,26,0,0">
+
+                <TextBox x:Name="postCode" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Postcode"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="87"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="-255,145,0,0" GotFocus="postCodeFocus" />
+
+                <Border Width="90"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="-251,-3,0,0"
+                 />
+            </StackPanel>
+            <StackPanel Margin="0,26,0,0">
+
+                <TextBox x:Name="city" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="City"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="127"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="-150,145,0,0" GotFocus="cityFocus" />
+
+                <Border Width="140"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="-145,-3,0,0"
+                 />
+            </StackPanel>
+
+            <StackPanel Margin="0,61,0,0">
+                <TextBox x:Name="street" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Street"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="167"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25" Margin="-255,137,0,0" GotFocus="streetFocus" />
+
+                <Border Width="166"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="-253,-5,0,0" 
+                 />
+            </StackPanel>
+            <StackPanel Margin="0,61,0,0">
+                <TextBox x:Name="streetNumber" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Number"
+                         FontSize="17"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="74"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25" Margin="-81,139,0,0" GotFocus="streeNumberFocus" />
+
+                <Border Width="72"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" 
+                        HorizontalAlignment="Left" Margin="-81,-8,0,0" 
+                 />
+            </StackPanel>
+
+            <Label FontFamily="Helvetica" FontWeight="Bold" FontSize="15" Width="99" Opacity="0.5" VerticalAlignment="Top" Margin="-424,230,0,0">Születési Idő</Label>
+            <StackPanel VerticalAlignment="Center" Margin="-164,-12,15,0" Width="167">
+
+                <DatePicker x:Name="userDateofBirth"  Height="26" Width="164" />
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5" VerticalAlignment="Top" 
+                        HorizontalAlignment="Left" Margin="-90,0,0,0"
+                 />
+            </StackPanel>
+
+            <StackPanel Margin="-278,89,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <Button x:Name="userAddButton"
+                            Width="100" Height="25" 
+                            Content="Felvét"
+                            Foreground="Black"
+                            FontFamily="Helvetica"
+                            Background="Transparent" 
+                            BorderBrush="Black" 
+                            Click="UserAddButtonClick"
+                            IsDefault="True"
+                            />
+            </StackPanel>
+            <StackPanel VerticalAlignment="Bottom" Margin="-281,0,0,42" Width="160" Height="120" HorizontalAlignment="Center">
+                <Image Source="Resources/bookworms.png" Height="120"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

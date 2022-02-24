@@ -1,0 +1,56 @@
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.exe
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.deps.json
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.runtimeconfig.json
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.runtimeconfig.dev.json
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.dll
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\ref\BookWorm.dll
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\bin\Debug\net5.0-windows\BookWorm.pdb
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\App.g.cs
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm_MarkupCompile.cache
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm_MarkupCompile.lref
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.g.resources
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.AssemblyInfoInputs.cache
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.AssemblyInfo.cs
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.CoreCompileInputs.cache
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.dll
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\ref\BookWorm.dll
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.pdb
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.genruntimeconfig.cache
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\MenuWindow.g.cs
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\MenuWindow.baml
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BorrowPage.g.cs
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BorrowPage.baml
+D:\Munka\WorkSpaces\VisualStuido 2019\BookWorm\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.AssemblyReference.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BorrowPage.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\MenuWindow.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm_MarkupCompile.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm_MarkupCompile.lref
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.dll
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\ref\BookWorm.dll
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.pdb
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AdminPage.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.exe
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.deps.json
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.runtimeconfig.json
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.runtimeconfig.dev.json
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.dll
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\ref\BookWorm.dll
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\BookWorm.pdb
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AdminPage.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BorrowPage.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\MenuWindow.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.g.resources
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.AssemblyInfoInputs.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.AssemblyInfo.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.CoreCompileInputs.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.genruntimeconfig.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddUser.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddUser.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.AssemblyReference.cache

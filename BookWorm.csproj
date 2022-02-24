@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\addBook.png" />
+    <None Remove="Resources\addUser.png" />
+    <None Remove="Resources\bookworm.png" />
+    <None Remove="Resources\bookworms.png" />
+    <None Remove="Resources\borrow.png" />
+    <None Remove="Resources\List.png" />
+    <None Remove="Resources\pass.png" />
+    <None Remove="Resources\User.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\addBook.png" />
+    <Resource Include="Resources\addUser.png" />
+    <Resource Include="Resources\borrow.png" />
+    <Resource Include="Resources\List.png" />
+    <Resource Include="Resources\pass.png" />
+    <Resource Include="Resources\User.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\bookworms.png" />
+  </ItemGroup>
+
+</Project>
