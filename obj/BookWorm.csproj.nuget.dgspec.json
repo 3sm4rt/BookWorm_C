@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "DotNetProjects.WpfToolkit.Input": {
+              "target": "Package",
+              "version": "[6.1.94, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

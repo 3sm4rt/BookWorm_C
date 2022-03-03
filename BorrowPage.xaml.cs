@@ -34,8 +34,8 @@ namespace BookWorm
 
             Book book1 = new Book();
             book1.bookId = 1;
-            book1.title = "kisfaszom";
-            book1.loanable = 1;
+            book1.title = "egyKonyv";
+            book1.loanable = "Igen";
             book1.max_loan_days = 10;
             book1.created_date = DateTime.Now.ToString("yyyy/MM/dd");
             book1.loan_expire = DateTime.Now.AddDays(day).ToString("yyyy/MM/dd");
@@ -45,7 +45,7 @@ namespace BookWorm
             Book book2 = new Book();
             book2.bookId = 2;
             book2.title = "ValamiamiNem Béla";
-            book2.loanable = 1;
+            book2.loanable = "Igen";
             book2.max_loan_days = 30;
             book2.created_date = DateTime.Now.ToString("yyyy/MM/dd");
             book2.loan_expire = DateTime.Now.AddDays(day).ToString("yyyy/MM/dd");
@@ -124,7 +124,14 @@ namespace BookWorm
             {
                 foreach (Book book in myBook)
                 {
-                     
+                     if(book.loanable == "Nem")
+                    {
+                        MessageBox.Show("A Könyv nem kölcsönözhető");
+                    }
+                    else
+                    {
+
+                    
 
                     if (book.barcode.Equals(Barcode.Text))
                     {
@@ -132,7 +139,7 @@ namespace BookWorm
                         DataGrid.Items.Add(book);
                         Barcode.Clear();
                     }
-
+                    }
                 }
             }
             

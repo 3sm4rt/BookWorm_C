@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetProjects.WpfToolkit.Input" Version="6.1.94" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resources\addBook.png" />
     <Resource Include="Resources\addUser.png" />
     <Resource Include="Resources\borrow.png" />

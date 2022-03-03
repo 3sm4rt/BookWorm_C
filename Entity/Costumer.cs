@@ -13,7 +13,7 @@ namespace BookWorm
         public string lastName { get; set; }
         public string costumerEmail { get; set; }
         public string costumerPhone { get; set; }
-        public string costumerPostCode { get; set; }
+        public int costumerPostCode { get; set; }
         public string costumerCity { get; set; }
         public string costumerCityStreet { get; set; }
         public int costumerStreetNumber { get; set; }
@@ -23,7 +23,7 @@ namespace BookWorm
         {
         }
 
-        public Costumer(int costumerId, string firstName, string lastName, string costumerEmail, string costumerPhone, string costumerPostCode, string costumerCity, string costumerCityStreet, int costumerStreetNumber, DateTime costumerBirthDate)
+        public Costumer(int costumerId, string firstName, string lastName, string costumerEmail, string costumerPhone, int costumerPostCode, string costumerCity, string costumerCityStreet, int costumerStreetNumber, DateTime costumerBirthDate)
         {
             this.costumerId = costumerId;
             this.firstName = firstName;

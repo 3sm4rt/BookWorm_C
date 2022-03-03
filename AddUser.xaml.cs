@@ -58,8 +58,18 @@ namespace BookWorm
 
         private void UserAddButtonClick(object sender, RoutedEventArgs e)
         {
+            int postcode = int.Parse(postCode.Text);
+            int houseNumber = int.Parse(streetNumber.Text);
+
             Costumer costumer = new Costumer();
             firstName.Text = costumer.firstName;
+            lastName.Text = costumer.lastName;
+            userEmail.Text = costumer.costumerEmail;
+            postcode = costumer.costumerPostCode;
+            city.Text = costumer.costumerCity;
+            street.Text = costumer.costumerCityStreet;
+            houseNumber = costumer.costumerStreetNumber;
+            phoneNumber.Text = costumer.costumerPhone;
 
         }
 
@@ -100,6 +110,11 @@ namespace BookWorm
         private void vezetekNevEvent(object sender, MouseButtonEventArgs e)
         {
             firstName.SelectAll();
+        }
+
+        private void phoneFocus(object sender, RoutedEventArgs e)
+        {
+            phoneNumber.SelectAll();
         }
     }
 }

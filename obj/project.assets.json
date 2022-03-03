@@ -1,11 +1,41 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "DotNetProjects.WpfToolkit.Input/6.1.94": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DotNetProjects.WpfToolkit.Input/6.1.94": {
+      "sha512": "0YcVgMwcytYzhGeIlOTs/5cmbobEa5AdL3vGONiqcScDTXwn5HL7tzIiHAsnPXuy9h+rOFtxuvod2jiRXC6tgQ==",
+      "type": "package",
+      "path": "dotnetprojects.wpftoolkit.input/6.1.94",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.wpftoolkit.input.6.1.94.nupkg.sha512",
+        "dotnetprojects.wpftoolkit.input.nuspec",
+        "lib/net40/DotNetProjects.Input.Toolkit.dll",
+        "lib/net5.0-windows7.0/DotNetProjects.Input.Toolkit.dll",
+        "lib/net6.0-windows7.0/DotNetProjects.Input.Toolkit.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "DotNetProjects.WpfToolkit.Input >= 6.1.94"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\3sm4rt\\.nuget\\packages\\": {},
@@ -50,6 +80,12 @@
     "frameworks": {
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "DotNetProjects.WpfToolkit.Input": {
+            "target": "Package",
+            "version": "[6.1.94, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

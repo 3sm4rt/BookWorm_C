@@ -15,19 +15,20 @@ using System.Windows.Shapes;
 namespace BookWorm
 {
     /// <summary>
-    /// Interaction logic for MenuWindow.xaml
+    /// Interaction logic for AddBook.xaml
     /// </summary>
-    public partial class MenuWindow : Window
+    public partial class AddBook : Window
     {
-        public MenuWindow()
+        public AddBook()
         {
             InitializeComponent();
+            AuthorSearch.ItemsSource = new String[] { "Edina Banoczi", "Kukacz Elemer", "Katali Emese", "Edward Zumm", "Eszkimó Zoltan", "Egy Tesztelo Neve", "Karcsi Kacsa" };
         }
 
-        private void Close(object sender, RoutedEventArgs e)
+        private void NavigateToMenu(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            main.Show();
+            MenuWindow menu = new MenuWindow();
+            menu.Show();
             this.Close();
         }
 
@@ -55,27 +56,6 @@ namespace BookWorm
 
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void BookBorrow(object sender, MouseButtonEventArgs e)
-        {
-            BorrowPage borrow = new BorrowPage();
-            borrow.Show();
-            this.Close();
-        }
-
-        private void NavigateAddUser(object sender, MouseButtonEventArgs e)
-        {
-            AddUser userAdd = new AddUser();
-            userAdd.Show();
-            this.Close();
-        }
-
-        private void NavigateToAddBook(object sender, MouseButtonEventArgs e)
-        {
-            AddBook userBook = new AddBook();
-            userBook.Show();
-            this.Close();
         }
     }
 }

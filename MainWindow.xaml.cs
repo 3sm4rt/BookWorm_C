@@ -46,11 +46,11 @@ namespace BookWorm
 
             User user3 = new User();
             user3.userId = 3;
-            user3.userTitleId = 1;
-            user3.title = "Admin";
-            user3.username = "Adesz";
+            user3.userTitleId = 2;
+            user3.title = "Könyvtáros";
+            user3.username = "asd";
             user3.email = "nem@gmail.com";
-            user3.password = "admin";
+            user3.password = "asd";
 
 
             users.Add(user1);
@@ -79,12 +79,10 @@ namespace BookWorm
                             menu.Show();
                             this.Close();
                         }
-                        else
-                        {
-                            MessageBox.Show("Valami gebasz van");
-                        }
+                       
                     }
                 }
+                MessageBox.Show("A Felhasználónév vagy Jelszó helytelen");
             }
         }
 

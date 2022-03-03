@@ -53,4 +53,8 @@ C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debu
 C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.genruntimeconfig.cache
 C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddUser.g.cs
 C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddUser.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\bin\Debug\net5.0-windows\DotNetProjects.Input.Toolkit.dll
 C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.AssemblyReference.cache
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddBook.g.cs
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\AddBook.baml
+C:\Users\3sm4rt\Desktop\Beadandó\BookWorm\desktop_application\BookWorm\obj\Debug\net5.0-windows\BookWorm.csproj.CopyComplete

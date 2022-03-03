@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FvWkHe2wu5dTKgkr+IXY7gKict4lcWSqHS8N1vJ1yNA0GlV0jA2K+zPjhx0WIJXoLP7SCrV87gq/uaAhRB1E0g==",
+  "dgSpecHash": "ESZKzRBxw8D4okZJ2Seh/bcJCVNwxChpgC5WmkpjRHy6u5sU50h/TsGinOIlNCS8IyyLEHUrY4FAasQU8WrOkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\3sm4rt\\Desktop\\Beadandó\\BookWorm\\desktop_application\\BookWorm\\BookWorm.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\3sm4rt\\.nuget\\packages\\dotnetprojects.wpftoolkit.input\\6.1.94\\dotnetprojects.wpftoolkit.input.6.1.94.nupkg.sha512"
+  ],
   "logs": []
 }

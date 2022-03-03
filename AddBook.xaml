@@ -1,0 +1,204 @@
+﻿<Window x:Class="BookWorm.AddBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookWorm" xmlns:controls="clr-namespace:System.Windows.Controls;assembly=DotNetProjects.Input.Toolkit"
+        mc:Ignorable="d"
+         Title="AddBook" Height="500" Width="400" AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+
+
+        <Border CornerRadius="10">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FFFFF865" Offset="0.13"/>
+                    <GradientStop Color="#FF00FFA2" Offset="0.5"/>
+                    <GradientStop Color="#FFB64646" Offset="0.97" />
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <StackPanel Margin="0,0,0,0" >
+            <Menu MouseLeftButtonDown="Minimize" >
+                <MenuItem Header="File" >
+                    <MenuItem Header="Main Menu"
+                              Click="NavigateToMenu"/>
+                </MenuItem>
+            </Menu>
+            <Ellipse Fill="Yellow" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-17,30,0" ToolTip="Minimize" MouseLeftButtonDown="Minimize"/>
+            <Ellipse x:Name="CloseButton" Fill="Red" Grid.Row="0" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="0.625,0.128" Margin="0,-17,8,0" MouseLeftButtonDown="CloseApp" ToolTip="Close">
+
+            </Ellipse>
+        </StackPanel >
+        <StackPanel>
+            <Button x:Name="Veglegesit" Height="20" Width="60" Margin="-188,33,0,0" Content="Feltöltés"/>
+           
+        </StackPanel>
+        <StackPanel VerticalAlignment="Top" Margin="0,70,0,0" HorizontalAlignment="Center" Height="420" >
+
+            <controls:AutoCompleteBox x:Name="AuthorSearch" Width="250"
+                                      HorizontalAlignment="Left"
+                                      Placeholder="Author Name">
+
+            </controls:AutoCompleteBox>
+            <!--Title Input-->
+            <TextBox x:Name="txtTitle" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Title"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"/>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <!--ISBN NUMB INPUT-->
+            <TextBox x:Name="txtIsbn" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="ISBN Number"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"/>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <!--Img_Link-->
+            <TextBox x:Name="ImgLink" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Image Link"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"/>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <!--Loanable List-->
+            <ListBox x:Name="Loanable" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="30"
+                         Margin="0,10,0,0"
+                     >
+                <ListBoxItem>
+                    Igen
+                </ListBoxItem>
+                <ListBoxItem>
+                    Nem
+                </ListBoxItem>
+            </ListBox>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <!--Max Loan Day Input-->
+            <TextBox x:Name="MaxLoanDay" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Max Loan Day"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"/>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <!--Category Name input-->
+            <controls:AutoCompleteBox x:Name="Category" Width="250"
+                                      HorizontalAlignment="Left"
+                                      Placeholder="Category Name">
+
+            </controls:AutoCompleteBox>
+            <!--Barcode input-->
+            <TextBox x:Name="BarcodeInput" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Barcode"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="250"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"/>
+            <Border Width="250"
+                        Height="2"
+                        Background="Black"
+                        Opacity="0.5"
+                 />
+            <Border BorderThickness="1">
+                <!--Short Descript input-->
+            <TextBox x:Name="ShortDescript" FontFamily="Helvetica"
+                         FontWeight="Bold"
+                         Text="Book Short Description"
+                         FontSize="20"
+                         HorizontalAlignment="Left"
+                         Foreground="Black"
+                         Background="Transparent"
+                         Width="250"
+                         Opacity="0.5"
+                         Height="127"
+                         Margin="0,10,0,0"
+                     TextAlignment="Left"
+                      AcceptsReturn="True"
+                     TextWrapping="Wrap"/>
+            
+            </Border>
+        </StackPanel>
+
+
+
+
+
+
+    </Grid>
+</Window>
